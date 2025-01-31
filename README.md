@@ -2,6 +2,8 @@
 
 **DealsDone** is an online marketplace platform that allows users to buy and sell products. This project showcases modern front-end and back-end technologies, using **React** and **Material UI** for the front-end, and **Node.js** with **Express** for the back-end. 🚀
 
+WEB LINK: https://software-engineering-project-kohl.vercel.app/
+
 ## Table of Contents 📚
 
 - [Project Overview](#project-overview)
