@@ -1,0 +1,95 @@
+.gradient-background {
+  background: linear-gradient(135deg, #000000, #FFD700);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.page-title {
+  margin-bottom: 2rem;
+  color: #FFD700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.form-paper {
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.product-preview {
+  position: sticky;
+  top: 2rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.submit-button {
+  background-color: #FFD700 !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+  transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #FFC400 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Override MUI styles for better visibility */
+.MuiInputBase-root {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.MuiInputLabel-root,
+.MuiInputBase-input {
+  color: #FFFFFF !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.MuiSelect-icon {
+  color: #FFFFFF !important;
+}
+
+@media (max-width: 960px) {
+  .gradient-background {
+    padding: 1rem;
+  }
+
+  .form-paper {
+    padding: 1rem;
+  }
+
+  .product-preview {
+    position: static;
+    margin-top: 2rem;
+  }
+}
+
+/* Styles for dropdown menu */
+.MuiSelect-select {
+  color: #FFFFFF !important; /* Keep the selected value color white */
+}
+
+.MuiMenuItem-root {
+  color: #000000 !important; /* Set the text color of menu items to black */
+  background-color: #FFFFFF !important; /* Set the background of menu items to white */
+}
+
+.MuiMenuItem-root:hover {
+  background-color: #F0F0F0 !important; /* Light gray background on hover */
+}
+
+.MuiPaper-root.MuiMenu-paper {
+  background-color: #FFFFFF !important; /* Ensure the dropdown background is white */
+}
+
